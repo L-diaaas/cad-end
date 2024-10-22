@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0%;
+    background-image: url(img/adorable-kitty-with-monochrome-wall-her.jpg);
+    background-size: 87.5rem 43.75rem ;
+}
+
+.caixa{
+    height:31.58rem;
+    width: 25.16rem;
+    border: 1px solid #ffffff;
+    border-radius: 5%;
+    background-color: #ffffff;
+    margin-left: 12.5rem;
+    margin-top: 4.5rem;
+}
+.voltar{
+    text-align: end;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+.caixa h2{
+    text-align: center;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    padding: 0.3rem;
+    border-radius: 4rem;
+}
+
+.input label{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.input input{
+    cursor: pointer;
+    color: #000;
+    font-size: 0.8rem;
+}
